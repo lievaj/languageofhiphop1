@@ -2,6 +2,7 @@ body{
     background-color: black;
     font-family: Verdana, Geneva, Tahoma;
     color: white;
+ 
 }
 .nav{
     text-align: center;
@@ -18,17 +19,7 @@ li{
 
 }
 
-.eerstepagina img{
-    width: 100%;
-    height: auto;
-}
-img{
-    position: absolute;
-    top: 80px;
-    width:80%;
-    height: auto;
 
-}
 
 header{
     position: fixed;
@@ -37,21 +28,20 @@ header{
     background-color: black;
 }
 
-.backgroundtwee img{
-    position: absolute;
-    top: 280px;
-    transform: rotate(90deg);
-    height: 100%;
-    width: auto;
-    z-index: -1;
-}
+
 .hiphop img{
-position: absolute;
-height:1700px;
-width: auto;
-left: 600px;
-align-content: center;
-z-index: 0;
+position: relative;
+width:100%;
+transform:rotate(-90deg);
+}
+
+.hiphop{
+    background-image: url("../img/album\ collage.png");
+    background-size: cover;
+    text-align: center;
+    height: 1000px;
+    transform:rotate(90deg);
+    padding: 300px;
 }
 
 .video{
@@ -60,81 +50,68 @@ z-index: 0;
     height:100%;
     align-content: center;
     top:250px;
-    left: 600px;
+    left: 300px;
 }
 
 .pijl1 img{
     position: absolute;
-    top: 1100px;
-    left: 400px;
+    top: 800px;
+    left: 100px;
     height: 250px;
     width: auto;
 }
 
 .pijl2 img{
     position: absolute;
-    top: 1100px;
-    left: 600px;
+    top: 800px;
+    left: 300px;
     height: 250px;
     width: auto;
 }
 .pijl3 img{
     position: absolute;
-    top: 1100px;
-    left: 800px;
+    top: 800px;
+    left: 500px;
     height: 250px;
     width: auto;
 }
 
 .pijl4 img{
     position: absolute;
-    top: 1100px;
-    left: 1000px;
+    top: 800px;
+    left: 700px;
     height: 250px;
     width: auto;
 }
 .pijl5 img{
     position: absolute;
-    top: 1100px;
-    left: 1200px;
+    top: 800px;
+    left: 900px;
     height: 250px;
     width: auto;
 }
 .pijl6 img{
     position: absolute;
-    top: 1100px;
-    left: 1400px;
-    height: 250px;
-    width: auto;
-}
-.pijl7 img{
-    position: absolute;
-    top: 1100px;
-    left: 1600px;
+    top: 800px;
+    left: 1100px;
     height: 250px;
     width: auto;
 }
 
-.pijl8 img{
-    position: absolute;
-    top: 1100px;
-    left: 1800px;
-    height: 250px;
-    width: auto;
-}
+
 
 .mockup img{
     position: relative;
-    top:1400px;
-    left: 100px;
-    width: 1400px;
+    top:-300px;
+    left: -100px;
+    height:700px;
 
 }
 
 .orderhere img{
     position: relative;
-    top: 600px;
-    left:1300px;
+    top: -1000px;
+    left: 750px;
     height: 500px;
     width: auto;
 }
