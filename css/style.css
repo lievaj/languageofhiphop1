@@ -50,7 +50,7 @@ transform:rotate(-90deg);
     height:100%;
     align-content: center;
     top:250px;
-    left: 300px;
+    left: 200px;
 }
 
 .pijl1 img{
@@ -101,17 +101,17 @@ transform:rotate(-90deg);
 
 
 .mockup img{
-    position: relative;
-    top:-300px;
-    left: -100px;
+    position:absolute;
+    top:1100px;
+    left: 20px;
     height:700px;
 
 }
 
 .orderhere img{
-    position: relative;
-    top: -1000px;
-    left: 750px;
-    height: 500px;
+    position: absolute;
+    top: 1100px;
+    left: 850px;
+    height: 400px;
     width: auto;
 }
